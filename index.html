@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSTest</title>
+</head>
+<body>
+    <script>
+
+    let topFiveMovies = ["The Black Stallion", "M", "Paris, Texas"]
+    let topFiveAlbums = ["Transformer", "Twin Fantasies", "Shocking Pinks"]
+    // console.log(topFiveMovies)
+    // console.log(topFiveMovies[0])
+    
+    
+    function fuckingSuperSweetNumberAdder (number1, number2){
+        let newValue = number1 + number2
+        console.log("The new value is " + newValue)
+        return newValue
+    }
+    
+    function arrayLooper (array){
+        for(i = 0; i < array.length; i++){
+            console.log(i + " = " + array[i])
+        }
+
+    }
+    arrayLooper(topFiveMovies)
+    arrayLooper(topFiveAlbums)
+
+    fuckingSuperSweetNumberAdder(6,9)
+    fuckingSuperSweetNumberAdder(60,9)
+    </script>
+</body>
+</html>
